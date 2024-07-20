@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+</head>
+<style>
+    * {
+        color: darkblue;
+    }
+    h1 {
+        color: brown;
+    }
+    h2,h3 {
+        color: palevioletred;
+    }
+    div p {
+        color: rgb(43, 226, 116);
+    }
+    div > p {
+        color: aqua;
+    }
+    div ~ p {
+        color: darkgreen;
+    }
+    div + p {
+        color: darkgoldenrod;
+    }
+    .para6 {
+        color: black;
+    }
+    .para7 {
+        color: darkmagenta;
+    }
+    #para8 {
+        color: orangered;
+    }
+    input {
+        background-color: brown;
+    }
+    input:hover {
+        background-color: pink;
+    }
+    input:focus {
+        background-color: blue;
+    }
+    h1:hover {
+        color: aqua;
+    }
+    p:active {
+        background-color: lightcoral;
+    }
+    body > p {
+        background-color: aqua;
+    }
+    li:nth-child(even) {
+        background-color: plum;
+    }
+    li:nth-child(odd) {
+        background-color: palegreen;
+    }
+    li:first-child {
+        background-color: pink;
+    }
+    li:last-child {
+        background-color: peru;
+    }
+    li:nth-child(4) {
+        background-color: rgb(76, 247, 38);
+    }
+    li:hover {
+        background-color: red;
+    } 
+</style>
+<body>
+    <h1>HEADING 1</h1>
+    <h2>HEADING 2</h2>
+    <h3>HEADING 3</h3>
+    <p>PARAGRAPH 1</p>
+     <div>
+        <p>PARAGRAPH 2</p>
+        <section>
+            <p>PARAGRAPH 3</p>
+        </section>
+        <p>PARAGRAPH 4</p>
+     </div>
+     <p>PARAGRAPH 5</p>
+     <p class="para6">PARAGRAPH 6</p>
+     <p class="para7">PARAGRAPH 7</p>
+     <p id="para8">PARAGRAPH 8</p>
+     <p>PARAGRAPH 9</p>
+     <input type="text">
+     <ul>
+        <li>ONE</li>
+        <li>TWO</li>
+        <li>THREE</li>
+        <li>FOUR</li>
+        <li>FIVE</li>
+        <li>SIX</li>
+     </ul>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    padding: 10px 0;
+    background-color: beige;
+    box-shadow: 0px 2px 6px 0px black;
+}
+.logo {
+    color: #7a6960;
+    font-size: 30px;
+}
+.get_started {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.wrapper img {
+    width: 100%;
+    margin-top: 20px;
+}

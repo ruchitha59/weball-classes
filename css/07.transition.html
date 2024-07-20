@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        input {
+            background-color: aqua;
+            margin-left: 50px;
+            border: 5px solid brown;
+            border-radius: 5px;
+            color: rgb(251, 73, 13);
+            padding: 7px;
+            transform: scale(1.3);
+            transition-duration: 4s ;
+            transition-delay: 2s;
+            transition-timing-function: ease ;
+        }
+        input:hover {
+            background-color: lightgreen;
+            border: 5px solid blueviolet;
+        }
+        input:focus {
+            background-color: gold;
+        }
+        div {
+            background-color: pink;
+            width: 500px;
+            height: 300px;
+            border: 5px solid black;
+            margin-top: 20px;
+            margin-left: 20px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(239, 16, 16);
+            font-size: x-large;
+        }
+        div:hover {
+            background-color: brown;
+            border: 5px double violet;
+            color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <input type="text">
+     <div>DROP YOUR FILES!!!</div>
+</body>
+</html>

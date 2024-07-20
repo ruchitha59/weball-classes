@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color:rgb(107, 94, 94) ;
+            /* margin: 0%; */
+        }
+        label , input {
+            display: block;
+            width: 100%;
+        }
+        label {
+            margin-bottom: 6px;
+        }
+        input {
+            margin-bottom: 15px;
+        }
+        .tel {
+            display: flex;
+            align-items: center;
+        }
+        .tel input {
+            margin-bottom: 0;
+        }
+        button {
+            background-color: blue;
+            text-align: center;
+            border: none;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 10%;
+            padding: 5px 20px;
+        }
+        form {
+            background-color: white;
+            border-radius: 10px;
+            width: 300px;
+            padding: 10px 20px;
+            margin: 30px auto 0;
+            box-shadow: -4px 4px 0 0 rgb(234, 6, 6), -8px 8px 0 0 blue, -12px 12px 0 0 darkgreen ;
+        }
+        .butn {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <h2>Event registration form</h2>
+    <label for="">Name</label>
+    <input type="text" placeholder="Leah Berns">
+    <label for="">Email</label>
+    <input type="email" placeholder="leah@company.company">
+    <label for="">Company name</label>
+    <input type="text" placeholder="company inc">
+    <label for="">Phone number</label>
+    <div class="tel">
+    <select>
+        <option>country</option>
+        <option>+91</option>
+        <option>+81</option>
+        <option>+31</option>
+        <input type="tel">
+    </select>
+    </div>
+
+    <div class="butn">
+    <button>Submit</button>
+    </div>
+    </form>
+</body>
+</html>
