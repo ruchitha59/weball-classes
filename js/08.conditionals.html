@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditionals</title>
+</head>
+<body>
+    <h1>Conditionals</h1>
+
+    <script>
+        let score = 90;
+
+        if (score > 85) {
+            console.log('A')
+        } else {
+            console.log('B')
+        }
+
+        let time = new Date();
+        let hour = time.getHours();
+        console.log(hour);
+        console.log(time.getFullYear());
+
+        if (hour < 12) {
+            console.log('Good Morning!')
+        } else {
+            console.log('Good Morning!')
+        }
+
+        if (hour < 12) {
+            console.log('Good Morning!')
+        } else if (hour < 20) {
+            console.log('Good Evening!')
+        } else {
+            console.log('Good Night!')
+        }
+    </script>
+</body>
+</html>
